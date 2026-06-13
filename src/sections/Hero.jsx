@@ -1,12 +1,7 @@
 import { Button } from "@/components/Button";
-import {
-  ArrowRight,
-  ChevronDown,
-  Download,
-  GitBranch,
-  Link2Icon,
-} from "lucide-react";
+import { ArrowRight, ChevronDown, Download } from "lucide-react";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
+import { SiGithub, SiIndeed } from "@icons-pack/react-simple-icons";
 
 const skills = [
   "React",
@@ -104,8 +99,11 @@ export const Hero = () => {
               <span className="text-sm text-muted-foreground">Follow me: </span>
               {/*Need to find socials icons*/}
               {[
-                { icon: GitBranch, href: "#" },
-                { icon: Link2Icon, href: "#" },
+                {
+                  icon: SiGithub,
+                  href: "https://github.com/avbds002?tab=repositories",
+                },
+                { icon: SiIndeed, href: "#" },
               ].map((social, idx) => (
                 <a
                   key={idx}
