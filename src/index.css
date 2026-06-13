@@ -9,6 +9,9 @@
   --color-primary: #20b2a6;
   --color-primary-foreground: #ffffff;
 
+  --color-secondary: #1f2830;
+  --color-secondary-foreground: #20b2a6;
+
   --color-muted: #252e37;
   --color-muted-foreground: #7a8491;
 
@@ -23,6 +26,10 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+  }
+
+  button {
+    cursor: pointer;
   }
 
   body {
@@ -55,8 +62,9 @@
   }
 
   .glow-border {
-    box-shadow: 0 0 20px
-      color-mix(in srgb, var(--color-primary 5%), transparent);
+    box-shadow:
+      0 0 20px color-mix(in srgb, var(--color-primary) 20%, transparent),
+      inset 0 0 20px color-mix(in srgb, var(--color-primary) 5%, transparent);
   }
 }
 
@@ -71,6 +79,22 @@
       opacity: 1;
       transform: translateY(0);
       filter: blur(0);
+    }
+  }
+
+  @keyframes slow-drift {
+    0%,
+    100% {
+      transform: translate(0, 0);
+    }
+    25% {
+      transform: translate(20px, -30px);
+    }
+    50% {
+      transform: translate(-15px, -20px);
+    }
+    75% {
+      transform: translate(30px, 10px);
     }
   }
 
@@ -133,12 +157,6 @@
     animation-delay: 800ms;
   }
 
-  .animated-border:hover {
-    background-color: color-mix(in srgb, #26c4b8 15%, transparent);
-    backdrop-filter: blur(16px);
-    box-shadow: 0 0 20px color-mix(in srgb, #26c4b8 20%, transparent);
-  }
-
   @keyframes animated-border {
     0% {
       stroke-dashoffset: 400;
@@ -152,19 +170,15 @@
     animation: animated-border 1.5s linear infinite;
   }
 
-  @keyframes slow-drift {
-    0%,
-    100% {
-      transform: translate(0, 0);
-    }
-    25% {
-      transform: translate(20px, -30px);
-    }
-    50% {
-      transform: translate(-15px, -20px);
-    }
-    75% {
-      transform: translate(30px, 10px);
-    }
+  .animated-border:hover {
+    background-color: color-mix(in srgb, #26c4b8 15%, transparent);
+    backdrop-filter: blur(16px);
+    box-shadow: 0 0 20px color-mix(in srgb, #26c4b8 20%, transparent);
+  }
+
+  .timeline-glow {
+    box-shadow:
+      0 0 40px color-mix(in srgb, var(--color-primary) 35%, transparent),
+      0 0 80px color-mix(in srgb, var(--color-primary) 25%, transparent);
   }
 }
