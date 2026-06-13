@@ -1,5 +1,6 @@
 import { ArrowUpRight } from "lucide-react";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
+import { SiGithub } from "@icons-pack/react-simple-icons";
 const projects = [
   {
     title: "Fintech Dashboard",
@@ -96,7 +97,7 @@ export const Projects = () => {
                     href={project.github}
                     className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all"
                   >
-                    {/*<Github className="w-5 h-5" />*/}
+                    {<SiGithub className="w-5 h-5" />}
                   </a>
                 </div>
               </div>
