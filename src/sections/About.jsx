@@ -49,35 +49,46 @@ export const About = () => {
 
           <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-              eget fermentum mi. Vestibulum ante ipsum primis in faucibus orci
-              luctus et ultrices posuere cubilia curae; Vivamus ut maximus
-              velit. Aenean erat elit, ornare sed malesuada eu, viverra sed
-              ante.
+              I am a dedicated IT professional with over two years of hands-on
+              experience in network infrastructure, system administration, and
+              technical support. Currently pursuing a Bachelor’s degree in
+              Computer Science, I am transitioning my career toward Software
+              Engineering and Full Stack development. My technical background
+              has provided me with a strong foundation in logical thinking,
+              network architecture, and database modeling, which I now leverage
+              to build robust software solutions
             </p>
             <p>
-              Proin ultrices nunc ipsum, eu volutpat dolor sollicitudin sed.
-              Pellentesque eget ornare est, sit amet vestibulum metus. Duis
-              maximus neque sed diam luctus tempor. Proin convallis mauris eget
-              suscipit ultricies. Curabitur fringilla consectetur metus. Vivamus
-              velit nisi, congue a neque sollicitudin, rhoncus accumsan purus.
-              Pellentesque varius dictum purus
+              My expertise encompasses the JavaScript ecosystem, including
+              Node.js and React.js, as well as Java development with Spring Boot
+              and Angular. Throughout my career, I have successfully managed
+              complex environments, including MS SQL Server databases,
+              virtualized infrastructure with Proxmox, and enterprise network
+              security using PfSense and various monitoring tools like Zabbix
+              and Grafana. This combination of infrastructure knowledge and
+              software development skills allows me to approach programming
+              challenges with a comprehensive understanding of how systems
+              interact and perform.
             </p>
             <p>
-              Fusce tincidunt interdum suscipit. Praesent semper ullamcorper
-              sapien, vel blandit eros dapibus sed. Donec at nulla non nibh
-              tempor pellentesque sit amet vitae turpis. Pellentesque varius
-              neque nisi, in commodo eros aliquam ut. Etiam a gravida leo.
+              I am eager to contribute my technical competencies to innovative
+              projects focused on software development, process automation, and
+              system efficiency. Passionate about creating high-quality,
+              scalable applications, I am actively seeking new opportunities to
+              grow as a developer and provide impactful solutions in the
+              technology sector. I invite you to explore my projects and welcome
+              the opportunity to connect and discuss how I can add value to your
+              team.
             </p>
           </div>
 
           <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
             <p className="text-lg font-medium italic text-foreground">
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-              eget fermentum mi. Vestibulum ante ipsum primis in faucibus orci
-              luctus et ultrices posuere cubilia curae; Vivamus ut maximus
-              velit. Aenean erat elit, ornare sed malesuada eu, viverra sed
-              ante. Fusce tincidunt interdum suscipit"
+              "If I have seen further, it is by standing on the shoulders of
+              giants"
+              <br />
+              <br />
+              <strong>Isaac Newton</strong>
             </p>
           </div>
           {/*Right Column - highlights */}

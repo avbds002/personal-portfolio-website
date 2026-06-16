@@ -1,7 +1,7 @@
 import { Button } from "@/components/Button";
-import { ArrowRight, ChevronDown, Download } from "lucide-react";
+import { ArrowRight, ChevronDown, Download, Share2Icon } from "lucide-react";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
-import { SiGithub, SiIndeed } from "@icons-pack/react-simple-icons";
+import { SiGithub } from "@icons-pack/react-simple-icons";
 
 const skills = [
   "React",
@@ -78,10 +78,8 @@ export const Hero = () => {
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro
-                et illo tempora placeat incidunt quo aspernatur modi, possimus
-                enim dolorem non. Et, sunt officiis! Adipisci vel veniam officia
-                nesciunt eos.
+                Technology as a means to an end. My mission is to develop
+                adaptable solutions for businesses and companies of all sizes.
               </p>
             </div>
             {/*CTAs */}
@@ -103,7 +101,10 @@ export const Hero = () => {
                   icon: SiGithub,
                   href: "https://github.com/avbds002?tab=repositories",
                 },
-                { icon: SiIndeed, href: "#" },
+                {
+                  icon: Share2Icon,
+                  href: "https://www.linkedin.com/in/andr%C3%A9-vinicius-bezerra-da-silva/",
+                },
               ].map((social, idx) => (
                 <a
                   key={idx}

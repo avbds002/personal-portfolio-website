@@ -1,17 +1,22 @@
 const experiences = [
   {
-    period: "2022 — Present",
-    role: "Senior Frontend Engineer",
-    company: "Tech Innovators Inc.",
+    period: "2024 — Present",
+    role: "Technical Support Analyst",
+    company: "Hotel Catussaba LTDA",
     description:
-      "Leading frontend architecture for a suite of fintech products. Implemented micro-frontend architecture, reduced bundle size by 40%, and mentored a team of 5 developers.",
-    technologies: ["React", "TypeScript", "Next.js", "GraphQL"],
+      "Provide support to end users who utilize the systems that underpin the hotel's business operations and rules, and perform the configuration and maintenance of the company's computer infrastructure assets.",
+    technologies: [
+      "Windows Server",
+      "TOTVS ERP",
+      "SQLSERVER",
+      "Routing & Switching",
+    ],
     current: true,
   },
   {
-    period: "2020 — 2022",
-    role: "Frontend Engineer",
-    company: "Digital Solutions Co.",
+    period: "2022 — 2024",
+    role: "Technical Support",
+    company: "ITS TELECOM",
     description:
       "Built and maintained multiple React applications for enterprise clients. Introduced automated testing practices that improved code coverage to 85%.",
     technologies: ["React", "Redux", "Jest", "Cypress"],
@@ -52,8 +57,7 @@ export const Experience = () => {
             className="text-muted-foreground
            animate-fade-in animation-delay-200"
           >
-            A timeline of my professional growth, from curious beginner to
-            senior engineer leading teams and building products at scale.
+            A timeline of my professional growth and work experience.
           </p>
         </div>
 
