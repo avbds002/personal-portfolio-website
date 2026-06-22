@@ -18,8 +18,8 @@ const experiences = [
     role: "Technical Support",
     company: "ITS TELECOM",
     description:
-      "Built and maintained multiple React applications for enterprise clients. Introduced automated testing practices that improved code coverage to 85%.",
-    technologies: ["React", "Redux", "Jest", "Cypress"],
+      "Support, analysis, and diagnosis of critical connectivity failures in resident broadband customer networks. Configuration of MikroTik equipment, including PPPoE credential provisioning and validation of integration with RADIUS servers.",
+    technologies: ["Mikrotik", "Routing & Switching", "Monitoring", "Zabbix", "Grafana"],
     current: false,
   },
 ];
